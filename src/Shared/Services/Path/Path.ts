@@ -1,1 +1,3 @@
-export const path = {};
+export const path = {
+  sampleFeature: {},
+};

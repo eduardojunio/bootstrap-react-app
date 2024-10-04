@@ -1,3 +1,9 @@
 # Bootstrap React App
 
-TBD
+## Scaffolding
+
+To generate features, components, hooks, and more just run:
+
+```sh
+yarn plop
+```

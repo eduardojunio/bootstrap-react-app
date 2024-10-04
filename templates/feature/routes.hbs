@@ -1,0 +1,9 @@
+import { Route } from 'react-router-dom';
+import { path } from '../Shared/Services/Path/Path';
+import { RoutesInstructions } from '../Shared/Components/RoutesInstructions/RoutesInstructions';
+
+export const routes = (
+  <>
+    <Route path={path.{{nameCamel}}.list} element={<RoutesInstructions filePath="src/{{name}}/routes.tsx" />} />
+  </>
+);

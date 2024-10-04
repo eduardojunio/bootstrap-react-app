@@ -1,11 +1,8 @@
 import { Outlet, Route } from 'react-router-dom';
-
-function Instructions() {
-  return <h1>Empty routes. Update the src/routes.tsx file.</h1>;
-}
+import { RoutesInstructions } from './Shared/Components/RoutesInstructions/RoutesInstructions';
 
 export const routes = (
   <Route path="/" element={<Outlet />}>
-    <Route path="/" element={<Instructions />} />
+    <Route path="/" element={<RoutesInstructions filePath="src/routes.tsx" />} />
   </Route>
 );
